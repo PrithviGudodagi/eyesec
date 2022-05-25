@@ -1,0 +1,122 @@
+footer {
+  display: block;
+}
+
+.blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+
+.blockquote-footer::before {
+  content: "\2014\00A0";
+}
+
+.card-footer {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-footer:last-child {
+  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+}
+
+.card-group > .card:not(:last-child) .card-img-bottom,
+.card-group > .card:not(:last-child) .card-footer {
+  border-bottom-right-radius: 0;
+}
+
+.card-group > .card:not(:first-child) .card-footer {
+  border-bottom-left-radius: 0;
+}
+
+.modal-dialog-scrollable .modal-footer {
+  flex-shrink: 0;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+}
+
+.modal-footer > :not(:first-child) {
+  margin-left: 0.25rem;
+}
+
+.modal-footer > :not(:last-child) {
+  margin-right: 0.25rem;
+}
+
+.footer {
+  color: #e5e5e5;
+  background: #222831;
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.footer p {
+  margin-bottom: 0.25rem;
+}
+
+.footer .footer-link {
+  color: #e5e5e5;
+}
+
+.footer .footer-top {
+  padding: 74px 0;
+}
+
+.footer .footer-top .footer-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 0.875rem;
+  color: #fff;
+}
+
+.footer .footer-top .social-icons {
+  margin-top: 1.25rem;
+}
+
+.footer .footer-top .social-icons a i {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-right: 1rem;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.footer .footer-top .social-icons a:hover i {
+  color: #000000;
+}
+
+.footer .footer-bottom {
+  background: rgba(255, 255, 255, 0.07);
+  padding: 30px 0;
+  border-top: 1px solid rgba(151, 151, 151, 0.07);
+}
+
+.footer .footer-bottom img {
+  width: 200px;
+}
+
+.footer .list-footer {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer .list-footer li a {
+  display: block;
+  padding: 0.625rem 0;
+  color: #ffffff;
+  font-size: 14px;
+  color: #e5e5e5;
+}

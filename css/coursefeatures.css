@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+.containers {
+  margin: 5% 0% 0%;
+  width: 100%;
+}
+.container-heading {
+  text-align: center;
+  color: #262f68;
+  margin: 50px 0%;
+  font-size: 37px;
+  font-weight: bold;
+}
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+}
+.item-icon {
+  width: 50px;
+  height: 50px;
+  padding: 5%;
+  border-radius: 25px;
+}
+#map-icon {
+  background-color: #ffe6df;
+}
+#coin-icon {
+  background-color: #dff0fe;
+}
+#comparison-icon {
+  background-color: #fcf3df;
+}
+#laptop-icon {
+  background-color: #eff2ff;
+}
+.item-details {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #111;
+  font-weight: 700;
+}
+
+.items-container p {
+  font-size: 16px;
+  line-height: 1.71;
+  font-weight: normal;
+}
